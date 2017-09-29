@@ -26,6 +26,7 @@ before_install:
 
 before_script:
 - npm prune
+- npm install -g --silent firebase-tools
 
 script:
 - npm run build:travis
